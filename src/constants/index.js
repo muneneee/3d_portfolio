@@ -13,16 +13,22 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    threed,
+    summz,
+    talent,
     carrent,
     jobit,
     tripguide,
     threejs,
+    cloudfactory,
+    kabarak,
+    moringa,
+    django,
+    python,
+    nyawira,
+    john,
+    anita,
+    demo,
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +48,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Engineer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Fullstack Developer",
       icon: mobile,
     },
     {
@@ -54,7 +60,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Frontend Developer",
       icon: creator,
     },
   ];
@@ -105,63 +111,49 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Django",
+      icon: django,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Cloud worker",
+      company_name: "CloudFactory",
+      icon: cloudfactory,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Successfully trained Artificial Intelligence (AI) to accurately recognize objects and people, resulting in improved efficiency and accuracy of object/person identification processes.",
+        "Successfully developed and implemented a data extraction system for documents, enabling AI to utilize extracted data to improve decision-making processes, leading to more accurate and efficient data analysis.",
+        "Worked to solve complex problems using the latest in Cloud, Mobile, and Web Technologies.",
+        "Collaborated with back-end and front-end developers to ensure seamless integration of database functionality into web applications",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Bachelor of Science in Computer Science",
+      company_name: "Kabarak University",
+      icon: kabarak,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sep 2020 - Sep 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Learnt programming fundamentals, including data structures and algorithms, object-oriented programming, and software development methodologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learnt about Computer organization and architecture, including digital logic design, CPU design, memory hierarchy, and input/output systems.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software Development course",
+      company_name: "Moringa School",
+      icon: moringa,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Feb 2020 - Jul 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using React.js, Django and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
@@ -172,42 +164,42 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Working with Kevin has been a true pleasure. His expertise in software development and attention to detail has resulted in a seamless and highly-functional product.",
+      name: "Nyawira Muturi",
+      designation: "Fullstack Engineer",
+      company: "Power Learn Project",
+      image: nyawira,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I had the pleasure of working with Kevin on a complex software project and was thoroughly impressed with their technical skills and ability to problem-solve. ",
+      name: "John Muriuki",
+      designation: "CEO",
+      company: "Skyhost Kenya",
+      image: john,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "As a fellow software engineer, I have had the opportunity to work with Kevin on multiple projects. His technical expertise and ability to quickly learn new technologies has been invaluable.",
+      name: "Anita Kahenya",
+      designation: "Technical Mentor",
+      company: "Moringa School",
+      image: anita,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ai article summarizer",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is a web app that takes the url of an article and summarizes the article using OpenAi's summarizer.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "vite",
           color: "green-text-gradient",
         },
         {
@@ -215,50 +207,52 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: summz,
+      source_code_link: "https://github.com/muneneee/OpenAi_summarizer",
+      live_link: "https://64472b9a3144e74df7f0964a--boisterous-platypus-f0a632.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "3D Shirt designer",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web application that allows you to design 3D shirts and prompt AI to give you designs based off your description.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "node",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "threejs",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: threed,
+      source_code_link: "https://github.com/muneneee/3D-Shirt-Design",
+      live_link: "https://stellular-faun-1cd7b9.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Talent Assessment",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A talent assessment app that uses the user's input to determine the best career path for them using a trained AI model.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "django",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "react",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: talent,
+      source_code_link: "https://github.com/muneneee/talent",
     },
   ];
   

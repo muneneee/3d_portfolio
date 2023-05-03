@@ -8,8 +8,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import python from "./tech/python.png";
+import django from "./tech/django.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -21,14 +21,22 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
+import kabarak from "./company/kabarak.jpeg";
+import moringa from "./company/moringa.png";
+import cloudfactory from "./company/cloudfactory.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import threed from "./threed.png";
+import summz from "./summz.png";
+import talent from "./talent.png";
+import nyawira from "./nyawira.jpeg";
+import john from "./john.jpeg";
+import anita from "./anita.jpeg";
+import demo from "./demo.jpg";
+
 
 export {
   logo,
@@ -40,8 +48,8 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  python,
+  django,
   git,
   html,
   javascript,
@@ -52,11 +60,17 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  kabarak,
+  moringa,
+  cloudfactory,
+  talent,
+  threed,
+  summz,
   carrent,
   jobit,
   tripguide,
+  nyawira,
+  john,
+  anita,
+  demo,
 };
